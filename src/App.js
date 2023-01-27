@@ -2,7 +2,7 @@
 function App() {
   return (
     <div className="App">
-      Doggy care App Welcome
+      Doggy Care App Welcome
     </div>
   );
 }
