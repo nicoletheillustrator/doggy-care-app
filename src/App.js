@@ -1,9 +1,16 @@
 
+import Main from "./Components/main";
+import { BrowserRouter} from "react-router-dom"
+
 function App() {
   return (
-    <div className="App">
-      Doggy care App Welcome
-    </div>
+    
+    <BrowserRouter>
+      <Main />
+    </BrowserRouter>
+
+
+    
   );
 }
 
